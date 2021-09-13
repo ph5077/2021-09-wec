@@ -1,0 +1,20 @@
+[user]
+	name = Ron Liu
+	email = ronliu@easy.com
+[core]
+	editor = vim -f
+[alias]
+  st  = status
+  ci  = commit
+  cae = commit --allow-empty
+  co  = checkout
+  br  = branch
+  lod = log -10 --oneline --decorate
+  sq  = show --quiet
+  sq1 = show --quiet --format=oneline --abbrev-commit
+[diff]
+  tool = gvimdiff
+[difftool]
+  prompt = false
+[color]
+  diff = auto
