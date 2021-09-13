@@ -1,0 +1,59 @@
+Password Change in NFS
+    > yppasswd
+
+list machine cpu and memory
+    > lscpu
+    > free -h
+   
+Dump data file
+    > hexdump -x data_file
+
+Filter colored text in file re-direct
+    > \ls > 1.log
+
+Show license status
+    > lmstat -c 4071@machine -i -S
+
+vncsrver
+    > vncserver :1 -geometry 1920x1080 -depth 24 &
+    > vncserver -list
+    > vncserver -kill :1
+ 
+    NO scaling at remote PC
+    > setenv DISPLAY localhost:1.0   # for GUI
+ 
+ GNOME Desktop 
+    Alt+Tab       Switch among tasks
+    Ctrl+PgUp     Switch among terminal, Left
+    Ctrl+PgDn     Switch among terminal, Right
+    Ctrl+Alt+->   Move to Right Virtual Desktop
+    Ctrl+Alt+<-   Move to Left Virtual Desktop
+    Shift+PgUp    Browse terminal display
+    Shift+PgDn    ......................
+
+Python3 venv
+    temporarily adding "/..../python/anaconda3/bin/" to $PATH
+    > cd bin
+    > python3 -m venv py3venv
+    > source ~/bin/py3venv/bin/activate.csh     ## entering into venv of Python3
+    > python --version
+    Python 3.7.4
+    > deactive                                  ## exit venv
+    
+tools doc
+> firefox /home/tools/verilog/INCISIV152_s014/doc/irun &
+> firefox file:///home/tools/verilog/INCISIV152_s014/doc &
+
+> irun -helpshowsubject
+> irun -helpsubject
+> irun -helpsubject ncvlog 
+
+Cadence DOC
+    > xhost +   ## @local machine
+    > cdnshelp  ## OR
+    > cdnshelp -search "-sem2009"
+    > nchelp ncsim RNQUIE     ## show info about "RNQUIE" in ncsim
+
+Intel FPGA Starter Edition
+    ## /home/tools/intelFPGA_pro/19.3/modelsim_ase/bin/vsim
+  
