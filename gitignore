@@ -20,8 +20,6 @@ work/
 !.gitignore
 *vim
 *.swp
-ddr_data.open_bank_file*
-ddr4_bank_data_file*
 *err
 *fsdb*
 fsdb/
@@ -30,7 +28,6 @@ bak/
 subtest*
 simvision*
 waves.shm/
-AMEM.regress.nc64/
 tmp/
 tmp*
 *tmp
