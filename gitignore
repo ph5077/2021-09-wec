@@ -51,8 +51,6 @@ DVEfiles/
 AN.DB/
 demo/
 mti*
-release.log.txt
-mem_init.txt
 *tar
 release*/
 Release*/
