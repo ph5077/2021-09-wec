@@ -41,8 +41,8 @@ Python3 venv
     > deactive                                  ## exit venv
     
 tools doc
-> firefox /home/tools/verilog/INCISIV152_s014/doc/irun &
-> firefox file:///home/tools/verilog/INCISIV152_s014/doc &
+> firefox /home/tools/verilog/INCISIVE/doc/irun &
+> firefox file:///home/tools/verilog/INCISIVE/doc &
 
 > irun -helpshowsubject
 > irun -helpsubject
