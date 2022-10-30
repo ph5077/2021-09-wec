@@ -21,11 +21,12 @@ set wildmenu
 " mkdir -p ~/.vim/autoload ~/.vim/bundle
 " DOWNLOAD from https://www.vim.org/scripts/script.php?script_id=2332
 " INSTALL PLUGIN to bundle
+" https://travis-ci.org/vhda/verilog_systemverilog.vim
+" 
 "
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
-
 
 set mouse=a
 
