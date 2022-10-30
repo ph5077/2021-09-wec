@@ -16,6 +16,12 @@ set path=**
 set wildmenu
 
 " to aviod underscore not visible in gvim
+
+" copy and paste the following into your terminal/shell:
+" mkdir -p ~/.vim/autoload ~/.vim/bundle
+" DOWNLOAD from https://www.vim.org/scripts/script.php?script_id=2332
+" INSTALL PLUGIN to bundle
+"
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
