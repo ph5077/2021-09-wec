@@ -11,6 +11,7 @@ set tabpagemax=100
 set splitright
 set splitbelow
 set scrolloff=3
+set showmatch
 
 set path=**
 set wildmenu
